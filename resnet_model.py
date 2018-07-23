@@ -7,7 +7,7 @@ import tensorflow as tf
 import numpy as np
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets('./mnist/data/', one_hot = True)
-
+print('wow')
 #residual learning
 # f(x) + x
 # original resnet : 본래 분기되기전에 활성화 함수 적용 
